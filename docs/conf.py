@@ -1,23 +1,18 @@
-# -- Projekt podstawowy -----------------------------------------------------
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
-project = 'Moja Dokumentacja'
-author = 'Jakub Prucnal'
-release = '1.0'
-
-
-# -- Konfiguracja Sphinx ----------------------------------------------------
+project = 'Read the docs'
+author = ' Jakub Prucnal'
 
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
-    'sphinx.ext.githubpages',
+    'sphinx.ext.todo',
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-
-# -- Ustawienia HTML --------------------------------------------------------
-
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 html_static_path = ['_static']
