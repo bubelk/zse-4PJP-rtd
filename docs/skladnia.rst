@@ -1,6 +1,3 @@
-Składnia elementów dokumentu
-============================
-
 Nagłówki tekstowe (poziomy 1–4)
 -------------------------------
 
